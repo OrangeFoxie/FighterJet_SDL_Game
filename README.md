@@ -19,5 +19,5 @@ Tải về và chạy, không cần cấu hình gì nữa.
 ---------------------------------------------------------------------
 
 Link to download Visual Studio 2012:
-
+---------------------------------------------------------------------
 https://download.tienichmaytinh.net/tai-visual-studio-2012-huong-dan-cai-dat
