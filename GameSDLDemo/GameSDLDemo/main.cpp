@@ -181,13 +181,13 @@ int main(int arc, char*argv[])
           }
 
            Mix_PlayChannel(-1, g_sound_exp[1], 0); 
-          if (MessageBox(NULL, L"HU HU Die roi", L"Thua roi :<", MB_OK) == IDOK)
+          /*if (MessageBox(NULL, L"HU HU Die roi", L"Thua roi :<", MB_OK) == IDOK)
           {
              delete [] p_threats;
              SDLCommonFunc::CleanUp();
              SDL_Quit();
 			 return 1;
-          }
+          }*/
         }
 
         //Check collision main bullet with threats.
