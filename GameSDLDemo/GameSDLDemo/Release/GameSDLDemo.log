@@ -1,25 +1,7 @@
-﻿Build started 27-08-2020 5:54:11 CH.
+﻿Build started 28-08-2020 9:24:48 SA.
      1>Project "C:\Users\OrFox\Desktop\thi\FighterJet_SDL_Game\GameSDLDemo\GameSDLDemo\GameSDLDemo.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         D:\apps\VS 2012\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt BaseObject.cpp BulletObject.cpp Common_Function.cpp ExplosionObject.cpp MainObject.cpp ThreatsObject.cpp main.cpp
-         BaseObject.cpp
-         BulletObject.cpp
-         Common_Function.cpp
-     1>Common_Function.cpp(135): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
-         ExplosionObject.cpp
-         MainObject.cpp
-     1>MainObject.cpp(72): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
-     1>MainObject.cpp(89): warning C4018: '<' : signed/unsigned mismatch
-     1>MainObject.cpp(140): warning C4018: '<' : signed/unsigned mismatch
-     1>MainObject.cpp(142): warning C4018: '<' : signed/unsigned mismatch
-         ThreatsObject.cpp
-     1>ThreatsObject.cpp(7): warning C4244: '=' : conversion from 'double' to 'Sint16', possible loss of data
-     1>ThreatsObject.cpp(19): warning C4018: '<' : signed/unsigned mismatch
-     1>ThreatsObject.cpp(43): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
-     1>ThreatsObject.cpp(53): warning C4018: '<' : signed/unsigned mismatch
-     1>ThreatsObject.cpp(66): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
-     1>ThreatsObject.cpp(93): warning C4018: '<' : signed/unsigned mismatch
-     1>ThreatsObject.cpp(105): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+         D:\apps\VS 2012\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
      1>main.cpp(147): warning C4018: '<' : signed/unsigned mismatch
      1>main.cpp(167): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
@@ -42,4 +24,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:04.66
+Time Elapsed 00:00:02.52

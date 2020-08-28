@@ -3,20 +3,20 @@
 
 ExplosionObject::ExplosionObject()
 {
-
+	// khoi tao ham explosion
 }
 
 ExplosionObject::~ExplosionObject()
-{
+{// ket thuc ham
 
 }
 
 void ExplosionObject::set_clip()
 {
-  clip_[0].x = 0;
-  clip_[0].y = 0;
-  clip_[0].w = EXP_WIDTH;
-  clip_[0].h = EXP_HEIGHT;
+  clip_[0].x = 0; //  vi tri x
+  clip_[0].y = 0; //  vi tri x
+  clip_[0].w = EXP_WIDTH; // dai
+  clip_[0].h = EXP_HEIGHT;// rong
 
   clip_[1].x = EXP_WIDTH;
   clip_[1].y = 0;
@@ -35,7 +35,7 @@ void ExplosionObject::set_clip()
 }
 
 void ExplosionObject::ShowEx(SDL_Surface* des)
-{
+{// hien thi hieu ung explosion trong frame
   if (frame_ >= 4)
   {
     frame_ = 0;

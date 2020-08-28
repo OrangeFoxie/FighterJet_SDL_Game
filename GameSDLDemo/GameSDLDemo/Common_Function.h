@@ -59,12 +59,12 @@ static char g_name_audio_exp_threats[]  = {"Explosion+1.wav"};	// sound cua enem
 
 namespace SDLCommonFunc
 {
-  SDL_Surface* LoadImage(std::string file_path);
-  void CleanUp();
-  void ApplySurface(SDL_Surface* src, SDL_Surface* des, int x, int y);
-  void ApplySurfaceClip(SDL_Surface* src, SDL_Surface* des, SDL_Rect* clip, int x, int y);
-  bool CheckCollision(const SDL_Rect& object1, const SDL_Rect& object2);
-  int MakeRandValue(const int& div_val = 400);
+  SDL_Surface* LoadImage(std::string file_path);  // load img background 
+  void CleanUp();	// Clear man hinh
+  void ApplySurface(SDL_Surface* src, SDL_Surface* des, int x, int y);// Load screen
+  void ApplySurfaceClip(SDL_Surface* src, SDL_Surface* des, SDL_Rect* clip, int x, int y);// Tua background
+  bool CheckCollision(const SDL_Rect& object1, const SDL_Rect& object2);// Kiem tra cac va cham tu vat the trong game
+  int MakeRandValue(const int& div_val = 400);// Khung trong cua game
 }
 
 
