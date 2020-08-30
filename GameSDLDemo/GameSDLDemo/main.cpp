@@ -106,7 +106,7 @@ int main(int arc, char*argv[])
       plane_object.HandleInputAction(g_even, g_sound_bullet);// khong thi load cac su kien va source game
     }
 
-    //Implement dynamic screen - tua backgroun
+    //Implement dynamic screen - tua background
     if (is_run_screen == true)// load man hinh lien tuc
     {
       bkgn_x -= SPEED_SCREEN; // man tua tu right sang left
@@ -200,7 +200,6 @@ int main(int arc, char*argv[])
             bool ret_col = SDLCommonFunc::CheckCollision(p_bullet->GetRect(), p_threat->GetRect());
             if (ret_col)// vung va cham
             {
-
               for (int tx = 0; tx < 4; tx++)
               {// vung explosion
                 int x_pos = p_bullet->GetRect().x - EXP_WIDTH*0.5;
@@ -218,7 +217,7 @@ int main(int arc, char*argv[])
                   return 0;
                 }
               }
-			  // update window, xoa ammo cua enemy die
+			  // update window, xoa enemy
               p_threat->Reset(SCREEN_WIDTH + tt*VAL_OFFSET_START_POST_THREATS);
               plane_object.RemoveBullet(im);
               Mix_PlayChannel(-1, g_sound_exp[0], 0);

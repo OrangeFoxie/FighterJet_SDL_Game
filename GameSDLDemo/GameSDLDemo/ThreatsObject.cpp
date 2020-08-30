@@ -93,9 +93,9 @@ void ThreatObject::Reset(const int& xboder)
   for (int i = 0; i < p_bullet_list_.size(); i++)
   {
     BulletObject* p_bullet = p_bullet_list_.at(i);
-    if (p_bullet)
+    if (p_bullet)// xoa ammo neu enemy die
     {
-      ResetBullet(p_bullet);
+      //ResetBullet(p_bullet);
     }
   }
 }
